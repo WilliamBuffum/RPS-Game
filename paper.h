@@ -1,6 +1,6 @@
 #ifndef PAPER_H//preprocessor guards
 #define PAPER_H
-#include "Tool.h"
+#include "tool.h"
 
 class Paper: public Tool{
    public:
