@@ -1,11 +1,11 @@
 #include <iostream>
 #include <stdlib.h>
 #include <ctime>
-#include "RPSgame.h"
-#include "Tool.h"
-#include "Rock.h"
-#include "Paper.h"
-#include "Scissors.h"
+#include "rpsgame.h"
+#include "tool.h"
+#include "rock.h"
+#include "paper.h"
+#include "scissors.h"
 #include "playgame.h"
 
 using namespace std;
