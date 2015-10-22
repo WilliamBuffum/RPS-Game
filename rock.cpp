@@ -1,5 +1,5 @@
-#include "Tool.h"
-#include "Rock.h"
+#include "tool.h"
+#include "rock.h"
 
 //default constructor
 Rock::Rock(){
