@@ -1,5 +1,5 @@
-#include "Tool.h"//includes the Tool functions because Paper inherits from tool
-#include "Paper.h"//.h for prototypes of class functions here
+#include "tool.h"//includes the Tool functions because Paper inherits from tool
+#include "paper.h"//.h for prototypes of class functions here
 
 //default constructor
 Paper::Paper(){
