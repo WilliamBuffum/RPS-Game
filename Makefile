@@ -1,5 +1,5 @@
-main.exe: main.o playgame.o RPSgame.o Tool.o Rock.o Paper.o Scissors.o
-	g++ main.o playgame.o RPSgame.o Tool.o Rock.o Paper.o Scissors.o -o main.exe
+main.exe: main.o playgame.o rpsgame.o tool.o rock.o paper.o scissors.o
+	g++ main.o playgame.o rpsgame.o tool.o rock.o paper.o scissors.o -o main.exe
 
 main.o: main.cpp
 	g++ -c main.cpp
@@ -7,20 +7,20 @@ main.o: main.cpp
 playgame.o: playgame.cpp
 	g++ -c playgame.cpp
 
-RPSgame.o: RPSgame.cpp
-	g++ -c RPSgame.cpp
+rpsgame.o: rpsgame.cpp
+	g++ -c rpsgame.cpp
 
-Tool.o: Tool.cpp
-	g++ -c Tool.cpp
+tool.o: tool.cpp
+	g++ -c tool.cpp
 
-Rock.o: Rock.cpp
-	g++ -c Rock.cpp
+rock.o: rock.cpp
+	g++ -c rock.cpp
 
-Paper.o: Paper.cpp
-	g++ -c Paper.cpp
+paper.o: paper.cpp
+	g++ -c paper.cpp
 
-Scissors.o: Scissors.cpp
-	g++ -c Scissors.cpp
+scissors.o: scissors.cpp
+	g++ -c scissors.cpp
 
 clean:
 	rm -f *.o *.out *.exe
