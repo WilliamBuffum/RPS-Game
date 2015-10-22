@@ -1,6 +1,6 @@
 #ifndef ROCK_H
 #define ROCK_H
-#include "Tool.h"
+#include "tool.h"
 
 class Rock: public Tool{
    public:
